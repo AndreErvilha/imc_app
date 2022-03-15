@@ -38,21 +38,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altura (m)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjm-Dh-Obr">
-                                <rect key="frame" x="175" y="115" width="110" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="110" id="LaT-0h-EuE"/>
-                                </constraints>
+                                <rect key="frame" x="186.5" y="115" width="87" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 1,75" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ii-Lu-cTM">
-                                <rect key="frame" x="181.5" y="138" width="97" height="34"/>
+                                <rect key="frame" x="192" y="138" width="76.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvY-hZ-qdn">
-                                <rect key="frame" x="41.5" y="186" width="237" height="44"/>
+                                <rect key="frame" x="41.5" y="186" width="227" height="44"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Iqq-fN-nVI"/>
@@ -68,8 +65,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="calc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="at0-3B-u7h"/>
-                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dou-dn-40b"/>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yTk-WT-huF"/>
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2df-vk-wet">

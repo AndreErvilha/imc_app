@@ -40,13 +40,16 @@ class ViewController: UIViewController {
         switch imc {
             case 0..<16:
                 result = "Magreza"
-                image = "abaixo"
+                image = "magreza"
             case 16..<18.5:
                 result = "Abaixo do peso"
                 image = "abaixo"
-            case 25..<30:
+            case 18.5..<25:
                 result = "Peso ideal"
                 image = "ideal"
+            case 25..<30:
+                result = "Sobrepeso"
+                image = "sobre"
             default:
                 result = "Obesidade"
                 image = "obesidade"
